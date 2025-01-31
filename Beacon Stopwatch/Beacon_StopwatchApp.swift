@@ -11,7 +11,9 @@ import SwiftUI
 struct Beacon_StopwatchApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            NavigationStack {
+                BeaconStopwatch()
+            }
         }
     }
 }
